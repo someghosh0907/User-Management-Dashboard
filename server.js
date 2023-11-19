@@ -9,7 +9,7 @@ const DB_URL="mongodb+srv://soumyajitghosh:someghosh01@clusterbloggy.vfxvsud.mon
 const app=express();
 
 //routes import
-const userRoutes=require('./routes/userRoutes')
+const userRoutes=require('./userRoutes')
 
 //DBmodel import
 const { default: mongoose } = require("mongoose");
